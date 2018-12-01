@@ -1,9 +1,10 @@
 module SolutionHelper
   def expect(expected, actual, input)
     if expected == actual
-      puts "Passed with input: '#{input}'"
+      # puts "Passed with input: '#{input}'"
+      print "."
     else
-      puts "Uhoh Failed on input: '#{input}'"
+      puts "\nUhoh Failed on input: '#{input}'"
       puts "Expected '#{expected}' but was actually '#{actual}'"
     end
   end
