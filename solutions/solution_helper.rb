@@ -18,4 +18,9 @@ module SolutionHelper
 
     read_file("data/#{basename}.txt")
   end
+
+  def freq(counts, e)
+    counts[e] += 1;
+    counts
+  end
 end
