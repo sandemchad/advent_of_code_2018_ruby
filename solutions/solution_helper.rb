@@ -23,4 +23,10 @@ module SolutionHelper
     counts[e] += 1;
     counts
   end
+
+  def print_grid(grid)
+    grid.each do |row|
+      puts "#{row}"
+    end
+  end
 end
